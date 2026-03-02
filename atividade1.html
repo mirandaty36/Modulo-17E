@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha 1</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        h1 {
+            color: #2E86C1;
+            font-size: 40px;
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+        }
+
+        p:nth-of-type(1) {
+            color: white;
+            background-color: #E74C3C;
+            padding: 8px;
+        }
+
+        p:nth-of-type(2) {
+            color: black;
+            background-color: #F7DC6F;
+            padding: 8px;
+        }
+
+        .box-model {
+            border: 3px solid #1ABC9C;
+            padding: 20px;
+            margin: 30px auto;
+            width: 300px;
+            background-color: #D5F5E3;
+        }
+
+        .botao {
+            background-color: #5DADE2;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .botao:hover {
+            background-color: #3498DB;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #AED6F1;
+        }
+
+        td {
+            background-color: #EBF5FB;
+        }
+    </style>
+</head>
+
+<body class="container mt-4">
+
+    <h1>Ficha Pessoal</h1>
+
+    <p>Nome: Santiago Miranda</p>
+    <p>Idade: 17 anos</p>
+
+    <img src="foto.jpg" alt="Foto" width="200" class="img-thumbnail">
+    <br><br>
+
+    <a href="https://www.roblox.com/" target="_blank" class="btn btn-warning mb-3">Roblox</a><br>
+
+    <ul class="list-group mb-3">
+        <li class="list-group-item">Gosto de jogar futebol</li>
+        <li class="list-group-item">Adoro programar</li>
+        <li class="list-group-item">Curto de roblox</li>
+        <li class="list-group-item">O felca é mau porque tirou o chat</li>
+    </ul>
+
+    <div class="box-model">
+        Esta é uma caixa com o modelo Box Model completo.
+    </div>
+
+    <table border="1" class="table table-bordered w-50">
+        <tr>
+            <th>Disciplina</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Português</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Inglês</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <form class="mt-4">
+        <label class="form-label">Escreve uma mensagem:</label>
+        <input type="text" placeholder="A tua mensagem..." class="form-control w-50">
+        <button type="submit" class="botao mt-3">Enviar</button>
+    </form>
+
+    <br>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
